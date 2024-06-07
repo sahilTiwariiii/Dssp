@@ -205,7 +205,7 @@ This project demonstrates the application of MLOps tools like DVC and MLflow to 
 ![Alt Text](images/web1.png)
 
 # Mlflow
-
+ 
 ![Alt Text](images/mlflow.png)
 
 
