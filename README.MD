@@ -200,7 +200,7 @@ The model's performance is evaluated based on metrics such as Mean Absolute Erro
 
 This project demonstrates the application of MLOps tools like DVC and MLflow to efficiently manage the lifecycle of a machine learning project. By predicting student math scores, we gain valuable insights into factors that influence academic performance, which can be leveraged to improve educational outcomes.
 
-<!-- ![Alt Text](images/web2.png)
+![Alt Text](images/web2.png)
 
 ![Alt Text](images/web1.png)
 
@@ -209,7 +209,7 @@ This project demonstrates the application of MLOps tools like DVC and MLflow to 
 ![Alt Text](images/mlflow.png)
 
 
-![Alt Text](images/mlfl.png) -->
+![Alt Text](images/mlfl.png)
 
 ## Contact 
  
