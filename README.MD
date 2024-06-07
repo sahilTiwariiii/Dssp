@@ -7,6 +7,7 @@
 
 
 
+
 Project Overview
 This project aims to predict a student's math score based on various factors such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, writing score, and reading score. The project uses MLOps tools like DVC for data versioning control and MLflow for tracking experiments, models, and deployment.
 
@@ -29,6 +30,77 @@ Table of Contents
 
 ![Alt Text](images/mlfl.png)
 
+# 📊 Project Data Description
+
+## 🗂️ Data Collection
+
+- **Dataset Source**: [Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977)
+- **Data Dimensions**: The dataset contains **1000 rows** and **8 columns**.
+
+## 📋 Data Columns
+
+1. **👤 gender**: Gender of the student (e.g., male, female)
+2. **🌍 race_ethnicity**: Race/ethnicity group of the student (e.g., Group A, Group B, etc.)
+3. **🎓 parental_level_of_education**: Highest level of education attained by the student's parents (e.g., high school, bachelor's degree)
+4. **🥪 lunch**: Type of lunch received (e.g., standard, free/reduced)
+5. **📚 test_preparation_course**: Participation in test preparation course (e.g., completed, none)
+6. **🧮 math_score**: Score obtained in the math exam (dependent variable)
+7. **📖 reading_score**: Score obtained in the reading exam
+8. **✍️ writing_score**: Score obtained in the writing exam
+
+## 🔍 Independent and Dependent Variables
+
+- **Independent Variables (X)**: All columns except 'math_score'
+  - 👤 `gender`
+  - 🌍 `race_ethnicity`
+  - 🎓 `parental_level_of_education`
+  - 🥪 `lunch`
+  - 📚 `test_preparation_course`
+  - 📖 `reading_score`
+  - ✍️ `writing_score`
+
+- **Dependent Variable (y)**: 🧮 `math_score`
+
+This dataset will be used to analyze and predict student performance in mathematics based on various demographic and educational factors.
+
+## 🚀 Model Training and Evaluation
+
+For this project, we trained and evaluated several regression models to predict student performance in mathematics. The models used are:
+
+- **Linear Regression**
+- **Lasso**
+- **Ridge**
+- **K-Neighbors Regressor**
+- **Decision Tree**
+- **Random Forest Regressor**
+- **XGBRegressor**
+- **CatBoosting Regressor**
+- **AdaBoost Regressor**
+
+### 📊 Performance Metrics
+
+To assess the performance of these models, we used the following metrics:
+- **Root Mean Squared Error (RMSE)**
+- **Mean Absolute Error (MAE)**
+- **R² Score**
+
+### 🏆 Results
+
+Here are the R² scores for each model:
+
+| Model Name               | R² Score  |
+|--------------------------|-----------|
+| Ridge                    | 0.880593  |
+| Linear Regression        | 0.880345  |
+| CatBoosting Regressor    | 0.851632  |
+| AdaBoost Regressor       | 0.849847  |
+| Random Forest Regressor  | 0.847291  |
+| Lasso                    | 0.825320  |
+| XGBRegressor             | 0.821589  |
+| K-Neighbors Regressor    | 0.783813  |
+| Decision Tree            | 0.760313  |
+
+These results indicate that the **Ridge** regression model performed the best, closely followed by **Linear Regression**.
 
 
 
