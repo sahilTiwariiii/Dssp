@@ -1,6 +1,11 @@
 # End to End Data Science Project
 #Student Exam Performance Indicator
 
+![Alt Text](images/web2.png)
+
+![Alt Text](images/web1.png)
+
+
 
 Project Overview
 This project aims to predict a student's math score based on various factors such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, writing score, and reading score. The project uses MLOps tools like DVC for data versioning control and MLflow for tracking experiments, models, and deployment.
@@ -18,6 +23,14 @@ Table of Contents
 ->Results
 ->Conclusion
 ->Contact
+
+# Mlflow
+![Alt Text](images/mlflow.png)
+
+![Alt Text](images/mlfl.png)
+
+
+
 
 ## Introduction
 
