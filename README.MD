@@ -1,13 +1,6 @@
 # End to End Data Science Project
 #Student Exam Performance Indicator
 
-![Alt Text](images/web2.png)
-
-![Alt Text](images/web1.png)
-
-
-
-
 Project Overview
 This project aims to predict a student's math score based on various factors such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, writing score, and reading score. The project uses MLOps tools like DVC for data versioning control and MLflow for tracking experiments, models, and deployment.
 
@@ -25,10 +18,6 @@ Table of Contents
 ->Conclusion
 ->Contact
 
-# Mlflow
-![Alt Text](images/mlflow.png)
-
-![Alt Text](images/mlfl.png)
 
 # 📊 Project Data Description
 
@@ -101,6 +90,8 @@ Here are the R² scores for each model:
 | Decision Tree            | 0.760313  |
 
 These results indicate that the **Ridge** regression model performed the best, closely followed by **Linear Regression**.
+
+
 
 
 
@@ -209,6 +200,16 @@ The model's performance is evaluated based on metrics such as Mean Absolute Erro
 
 This project demonstrates the application of MLOps tools like DVC and MLflow to efficiently manage the lifecycle of a machine learning project. By predicting student math scores, we gain valuable insights into factors that influence academic performance, which can be leveraged to improve educational outcomes.
 
+<!-- ![Alt Text](images/web2.png)
+
+![Alt Text](images/web1.png)
+
+# Mlflow
+
+![Alt Text](images/mlflow.png)
+
+
+![Alt Text](images/mlfl.png) -->
 
 ## Contact
 
